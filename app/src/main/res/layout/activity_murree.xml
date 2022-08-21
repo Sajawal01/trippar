@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MurreeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:background="@drawable/murree">
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_back_murree"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:background="@drawable/ic_baseline_arrow_back_white_24"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="17dp">-->
+<!--            </Button>-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Murree"
+                android:textStyle="bold"
+                android:textColor="#4285F4">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/name1_transporter1"
+                android:layout_width="match_parent"
+                android:text="Hill Stations"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/location1_transporter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Murree, District Rawalpindi, Punjab, Pakistan"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/description1_transporter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Murree is a mountain resort town, located in the Galyat region of the Pir Panjal Range, within the Rawalpindi District of Punjab, Pakistan. It forms the outskirts of the Islamabad-Rawalpindi metropolitan area, and is about 30km (19mi) northeast of Islamabad. It has average altitude of 2,2291 metres (7,516 ft)."
+                android:layout_marginTop="5dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accessible Via"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="40dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:text="Bike"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/textview_background">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:text="Car"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/textview_background">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:text="Bus"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/textview_background">
+
+            </TextView><TextView
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:text="4*4 Jeep"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/textview_background">
+
+        </TextView>
+
+        </LinearLayout>
+
+        <!--        <View-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:layout_marginHorizontal="40dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:background="#4285F4">-->
+
+        <!--        </View>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available for"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Family"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Adults"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Elders"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:text="Everyone"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Infants"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Kids"
+                    android:gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="25dp"
+                    android:text="Disable People"
+                    android:gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--        <View-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:layout_marginHorizontal="40dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:background="#4285F4">-->
+
+        <!--        </View>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="All Traditional foods and Desi foods."
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/textview_background">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Route condition"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Very Good"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="50dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activities"
+            android:textColor="#4285F4"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tourists can do the following activities on this place"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="40dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:elevation="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/hiking">
+
+                        </ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hiking"
+                        android:gravity="center">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:elevation="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/horse">
+
+                        </ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hore Riding"
+                        android:gravity="center">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:elevation="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/shoping">
+
+                        </ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shopping"
+                        android:gravity="center">
+
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/weather"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="80dp"
+            android:background="@drawable/weather"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_weather_murree"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Check Weather Now"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_background"
+                android:layout_marginHorizontal="40dp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotels"
+            android:textColor="#4285F4"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/hotel1_layout_murree"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/hotel1_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name1_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location1_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location1_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/phone1_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <!--        <View-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:layout_marginHorizontal="30dp"-->
+        <!--            android:background="#4285F4">-->
+
+        <!--        </View>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginHorizontal="40dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/hotel2_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name2_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location2_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location2_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/phone2_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+        <!--        <View-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:layout_marginHorizontal="30dp"-->
+        <!--            android:background="#4285F4">-->
+
+        <!--        </View>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/hotel3_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name3_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location3_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location3_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/phone3_hotelMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4">
+
+        </View>
+
+    </LinearLayout>
+
+</ScrollView>

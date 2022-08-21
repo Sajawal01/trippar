@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trippar">
+
+    <uses-permission android:name="android.permission.INTERNET " />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trippar">
+        <activity
+            android:name=".CheckTest"
+            android:exported="true" />
+        <activity
+            android:name=".Transporter3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".FaisalMosqueActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Hotel4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MurreeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Hotel2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".NaranValley"
+            android:exported="true" />
+        <activity
+            android:name=".MinarePakistanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Transporter2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MelaChiraghanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmailVarificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WeatherUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatRoomActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GoogleMapActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".HunzaValleyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Guider1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".GuideMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurant1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Hotel1BookRoom1"
+            android:exported="true" />
+        <activity
+            android:name=".Hotel1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".RestaurantMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HotelMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Transporter1BookCar1"
+            android:exported="true" />
+        <activity
+            android:name=".Transporter1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".TransportMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreatNewPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="true" />
+        <activity
+            android:name=".CheckYourEmailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivty"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TestActivty"
+            android:exported="true"
+            android:label="@string/title_activity_test_activty" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

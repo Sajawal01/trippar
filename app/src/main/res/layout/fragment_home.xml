@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="230dp"
+          android:background="@drawable/homepage">
+
+      </ImageView>
+
+      <com.airbnb.lottie.LottieAnimationView
+          android:id="@+id/animationView1"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          app:lottie_fileName="travel.json"
+          app:lottie_autoPlay="true"
+          app:lottie_loop="true"/>
+
+
+
+      <TextView
+          android:id="@+id/textview1_home"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Our Services"
+          android:textStyle="bold"
+          android:textSize="25dp"
+          android:layout_marginLeft="30dp"
+          android:layout_marginBottom="10dp"
+          android:textColor="#4285F4">
+      </TextView>
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="245dp"
+          android:layout_marginHorizontal="40dp"
+          android:elevation="10dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+               <LinearLayout
+                   android:id="@+id/transport_home_1"
+                   android:layout_width="140dp"
+                   android:layout_height="100dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="9dp"
+                   android:orientation="vertical">
+
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="80dp"
+                      android:background="@drawable/transport">
+
+                  </ImageView>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Transports"
+                      android:gravity="center"
+                      >
+
+                  </TextView>
+
+
+               </LinearLayout>
+
+               <View
+                   android:layout_width="3dp"
+                   android:layout_height="match_parent"
+                   android:background="#4285F4"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginLeft="15dp">
+
+               </View>
+
+               <LinearLayout
+                   android:id="@+id/hotel_home_1"
+                   android:layout_width="140dp"
+                   android:layout_height="100dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="80dp"
+                      android:background="@drawable/hotel">
+
+                  </ImageView>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Hotels"
+                      android:gravity="center">
+
+                  </TextView>
+
+               </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#4285F4"
+                android:layout_marginHorizontal="9dp">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+               <LinearLayout
+                   android:id="@+id/restaurant_home_1"
+                   android:layout_width="140dp"
+                   android:layout_height="100dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="9dp"
+                   android:orientation="vertical">
+
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="80dp"
+                      android:background="@drawable/restaurant">
+
+                  </ImageView>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Restaurants"
+                      android:gravity="center">
+
+                  </TextView>
+
+
+               </LinearLayout>
+
+               <View
+                   android:layout_width="3dp"
+                   android:layout_height="match_parent"
+                   android:background="#4285F4"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginLeft="15dp">
+
+               </View>
+
+               <LinearLayout
+                   android:id="@+id/guide_home_1"
+                   android:layout_width="140dp"
+                   android:layout_height="100dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="80dp"
+                      android:background="@drawable/guide">
+
+                  </ImageView>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Guides"
+                      android:gravity="center">
+
+                  </TextView>
+
+               </LinearLayout>
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Top Destinations"
+          android:textStyle="bold"
+          android:textSize="25dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginLeft="30dp"
+          android:textColor="#4285F4">
+      </TextView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Best travel places to visit and plan in 2022"
+          android:layout_marginLeft="30dp"
+          android:layout_marginBottom="10dp">
+
+      </TextView>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="395dp"
+          android:layout_marginHorizontal="40dp"
+          android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="130dp"
+             android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hunza_homefragment"
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+               android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="90dp"
+                   android:background="@drawable/hunza">
+
+               </ImageView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="20dp"
+                   android:layout_marginTop="95dp"
+                   android:text="Hunza Valley"
+                   android:textStyle="bold"
+                   android:gravity="center">
+               </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/naran_homefragment"
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+               android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="90dp"
+                   android:background="@drawable/naran">
+
+               </ImageView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="20dp"
+                   android:layout_marginTop="95dp"
+                   android:text="Naran Valley"
+                   android:textStyle="bold"
+                   android:gravity="center">
+               </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="130dp"
+             android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="90dp"
+                   android:background="@drawable/kaghan">
+
+               </ImageView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="20dp"
+                   android:layout_marginTop="95dp"
+                   android:text="Kaghan Valley"
+                   android:textStyle="bold"
+                   android:gravity="center">
+               </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="90dp"
+                   android:background="@drawable/kalam">
+
+               </ImageView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="20dp"
+                   android:layout_marginTop="95dp"
+                   android:text="Kalam Valley"
+                   android:textStyle="bold"
+                   android:gravity="center">
+               </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="130dp"
+             android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/murree_homefragment"
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="90dp"
+                   android:background="@drawable/murree">
+
+               </ImageView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="20dp"
+                   android:layout_marginTop="95dp"
+                   android:text="Murree"
+                   android:textStyle="bold"
+                   android:gravity="center">
+               </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/faisal_homefragment"
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="90dp"
+                   android:background="@drawable/faisal">
+
+               </ImageView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="20dp"
+                   android:layout_marginTop="95dp"
+                   android:text="Faisal Mosque"
+                   android:textStyle="bold"
+                   android:gravity="center">
+               </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+         </LinearLayout>
+
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/textview3_home"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Historical and culture places of Pakistan"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginLeft="30dp"
+          android:layout_marginBottom="10dp"
+          android:textColor="#4285F4">
+      </TextView>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="130dp"
+          android:layout_marginHorizontal="40dp"
+          android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="130dp"
+             android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mela_chiraghan_homefragment"
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="90dp"
+                   android:background="@drawable/chiraghan">
+
+               </ImageView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="20dp"
+                   android:layout_marginTop="95dp"
+                   android:text="Mela Chiraghan"
+                   android:textStyle="bold"
+                   android:gravity="center">
+               </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/minarePakistan"
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="90dp"
+                   android:background="@drawable/minar">
+
+               </ImageView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="20dp"
+                   android:layout_marginTop="95dp"
+                   android:text="Minar E Pakistan"
+                   android:textStyle="bold"
+                   android:gravity="center">
+               </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+         </LinearLayout>
+
+      </LinearLayout>
+
+
+      <com.airbnb.lottie.LottieAnimationView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          app:lottie_fileName="travel_homepage1.json"
+          app:lottie_autoPlay="true"
+          android:layout_marginTop="10dp"
+          app:lottie_loop="true"/>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="50dp">
+
+      </View>
+
+      </LinearLayout>
+
+
+</ScrollView>

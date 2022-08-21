@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restaurant1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:background="@drawable/restaurant1">
+
+            <Button
+                android:id="@+id/btn_back_restaurant1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_arrow_back_white_24"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp">
+            </Button>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="Ayash"
+            android:textStyle="bold"
+            android:textColor="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ayash_restaurant1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="10dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="Services"
+            android:textStyle="bold"
+            android:textColor="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/services_restaurant1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="10dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="Menu and Offers"
+            android:textStyle="bold"
+            android:textColor="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continental"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Thigh Chicken                              Rs. 650">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Sea Food Linguini                        Rs. 780">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Chicken Sticks                              Rs. 700">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Penne Arabita Pasta                    Rs. 875">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Morocan Chicken                         Rs. 880">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chinese"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="White Rice                                     Rs. 480">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Egg Fried Rice                              Rs. 690">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Veg Fried Rice                              Rs. 590">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Chicken Fried Rice                       Rs. 650">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#75b9d9"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:text="Chicken Chilly Dry                       Rs. 580">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textStyle="bold"
+                android:textColor="#4285F4">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_baseline_local_phone_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="03150747476"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btnCall_restaurant1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+                </Button>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_email_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sajawalhussain0006@gmail.com"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </View>
+
+
+    </LinearLayout>
+
+</ScrollView>

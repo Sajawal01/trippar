@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MelaChiraghanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:background="@drawable/chiraghan">
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_back_mela"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:background="@drawable/ic_baseline_arrow_back_white_24"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="17dp">-->
+<!--            </Button>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mela Chiraghan"
+                android:textStyle="bold"
+                android:textColor="#4285F4">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/name1_transporter1"
+                android:layout_width="match_parent"
+                android:text="Festival of Lights"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/location1_transporter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Baghabanpura town, Lahore, Pakistan"
+                android:layout_marginTop="5dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/description1_transporter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mela Chiraghan or Festival of Lights is a three day annual festival to consider the urs (death ceremony) of the Punjabi poet and Sufi saint Shah Hussain (1538_1599) who were in Lahore in the 16th century. It occurs at the shrine of Shah Hussain in Baghabanpura town, on the suburb of Lahore, Pakistan, next to the Shalimar Gardens. The festival also used to occurs in the Shalimar Gardens, until President Ayub Khan ordered against it in 1958."
+                android:layout_marginTop="5dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accessible Via"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="40dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:text="Car"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/textview_background">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:text="Bus"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/textview_background">
+
+            </TextView><TextView
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:text="4*4 Jeep"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/textview_background">
+
+        </TextView>
+
+        </LinearLayout>
+
+        <!--        <View-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:layout_marginHorizontal="40dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:background="#4285F4">-->
+
+        <!--        </View>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available for"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Family"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Adults"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Elders"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:text="Everyone"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Infants"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="Kids"
+                    android:gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="25dp"
+                    android:text="Disable People"
+                    android:gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/textview_background">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--        <View-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:layout_marginHorizontal="40dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:background="#4285F4">-->
+
+        <!--        </View>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Route condition"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Very Good"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="50dp">
+
+        </TextView>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurant"
+            android:textColor="#4285F4"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/restaurant1_layout_mela"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img1_mela"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name1_mela"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location1_mela"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location1_mela"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn2_mela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <!--        <View-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:layout_marginHorizontal="30dp"-->
+        <!--            android:background="#4285F4">-->
+
+        <!--        </View>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img2_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name2_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location2_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location2_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn3_restaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+        <!--        <View-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:layout_marginHorizontal="30dp"-->
+        <!--            android:background="#4285F4">-->
+
+        <!--        </View>-->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transport"
+            android:textColor="#4285F4"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/zeeshan_layout_mela"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/zeeshan_transport"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name2_transport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location2_transport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/mail2_transport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/phone2_transport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

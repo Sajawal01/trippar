@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hotel2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:background="@drawable/hotel2">
+
+            <Button
+                android:id="@+id/btn_back_hotel2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_arrow_back_white_24"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amenities"
+                android:textStyle="bold"
+                android:textColor="#4285F4">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_baseline_local_laundry_service_24">
+
+                </View>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="Laundry"
+                    android:gravity="center">
+
+                </TextView>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="25dp">
+
+                </View>
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_baseline_wifi_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="WiFi"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="25dp">
+
+                </View>
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_baseline_cleaning_services_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="Room Cleaning"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_baseline_local_taxi_24">
+
+                </View>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="Taxi"
+                    android:gravity="center">
+
+                </TextView>
+
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="25dp">
+
+                </View>
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_baseline_brunch_dining_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="Dinner"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="25dp">
+
+                </View>
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_baseline_free_breakfast_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="Breakfast"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="10dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="Royal Hotel Naran"
+            android:textStyle="bold"
+            android:textColor="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/elites_hotel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="10dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="Services"
+            android:textStyle="bold"
+            android:textColor="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/service1_hotel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/service2_hotel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="10dp">
+
+        </View>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="Accommodation"
+            android:textStyle="bold"
+            android:textColor="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/room1_hotel1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img1_hotel1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="145dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/des1_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Luxury executive room"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/roomNumber1_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of Rooms:   42">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/roomView1_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Room View:   Valley View">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_wifi_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_free_breakfast_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_bathtub_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_brunch_dining_24">
+
+                    </View>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="RS.  16500"
+                        android:textColor="#4285F4"
+                        android:gravity="center">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/btn1_hotel1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_background"
+                        android:text="Book"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="5dp">
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="10dp">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/room2_hotel1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img2_hotel1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="145dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/des2_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Deluxe twin room"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/roomNumber2_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of Rooms:   40">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/roomView2_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Room View:   Valley View">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_local_laundry_service_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_free_breakfast_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_bathtub_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_brunch_dining_24">
+
+                    </View>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="RS.  14000"
+                        android:textColor="#4285F4"
+                        android:gravity="center">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/btn2_hotel1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_background"
+                        android:text="Book"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="5dp">
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="10dp">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/room3_hotel1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img3_hotel1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="145dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/des_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Standard double room"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/roomNumber_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of Rooms:   42">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/roomView_hotel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Room View:   Valley View">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_wifi_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_free_breakfast_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_bathtub_24">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                    </View>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_baseline_brunch_dining_24">
+
+                    </View>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="RS.  11500"
+                        android:textColor="#4285F4"
+                        android:gravity="center">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/btn3_hotel1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_background"
+                        android:text="Book"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="5dp">
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textStyle="bold"
+                android:textColor="#4285F4">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_baseline_local_phone_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="03150747476"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btnCall_hotel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+                </Button>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_email_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sajawalhussain0006@gmail.com"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </View>
+
+
+    </LinearLayout>
+
+</ScrollView>

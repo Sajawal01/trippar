@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckYourEmailActivity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btn_backEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="#0000ffff"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_eamil2"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Your Email"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_confirm_your_account"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="40dp"
+            android:textSize="11sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stevejobs_gmail_com"
+            android:gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <EditText
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="6"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="17sp"/>
+            <EditText
+
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="6"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="17sp"/>
+            <EditText
+
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="6"
+                android:gravity="center"
+                android:background="@drawable/box_background"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="17sp"/>
+            <EditText
+
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="6"
+                android:gravity="center"
+                android:maxLength="1"
+                android:background="@drawable/box_background"
+                android:inputType="number"
+                android:textSize="17sp"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Submit"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_button"
+            android:text="Resend Code"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="12dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

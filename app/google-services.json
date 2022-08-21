@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182603992945",
+    "project_id": "trippar-14f7a",
+    "storage_bucket": "trippar-14f7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182603992945:android:0c882a2600e31d2cd0f0d0",
+        "android_client_info": {
+          "package_name": "com.example.trippar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182603992945-k7mkolirm1j8cn0lp606b2321qdkgv91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxrhAjMhSLfsKmfSlEtyWTE7ShWp39V6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182603992945-k7mkolirm1j8cn0lp606b2321qdkgv91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

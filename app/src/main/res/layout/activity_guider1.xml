@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guider1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:background="@drawable/guider1">
+
+            <Button
+                android:id="@+id/btn_back_guider1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp">
+            </Button>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intro"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:textStyle="bold"
+            android:textColor="#4285F4">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/intro_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#4285F4">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/service1_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/service2_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/service3_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/service4_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/service5_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expertise"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#4285F4">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise1_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise2_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise3_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise4_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise5_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise6_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise7_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise8_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expertise9_guider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textStyle="bold"
+                android:textColor="#4285F4">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_baseline_local_phone_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="03150747476"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btnCall_guider1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginHorizontal="30dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call"
+                    android:textColor="@color/white">
+                </Button>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_email_24">
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sajawalhussain0006@gmail.com"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4"
+            android:layout_marginTop="15dp">
+
+        </View>
+    </LinearLayout>
+
+</ScrollView>

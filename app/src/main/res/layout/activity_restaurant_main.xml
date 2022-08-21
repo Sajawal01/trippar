@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:background="@drawable/rest">
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_back_restaurant"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:background="@drawable/ic_baseline_arrow_back_white_24"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="17dp">-->
+<!--            </Button>-->
+
+
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:lottie_fileName="restaurant.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="Find the best Restaurants of your choice"
+            android:textSize="15dp"
+            android:textColor="#4285F4"
+            android:textStyle="bold"
+            android:gravity="center">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/restaurant1_layout_restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img1_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name1_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location1_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location1_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn2_restaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img2_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name2_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location2_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location2_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn3_restaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img3_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name3_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location3_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location3_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn4_restaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/img4_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name4_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location4_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location4_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn5_restaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+    </LinearLayout>
+
+</ScrollView>

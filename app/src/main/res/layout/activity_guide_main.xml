@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:background="@drawable/guider">
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_back_guide"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:background="@drawable/ic_baseline_arrow_back_24"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="17dp">-->
+<!--            </Button>-->
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="Find the best Guider of your choice"
+            android:textSize="15dp"
+            android:textColor="#4285F4"
+            android:textStyle="bold"
+            android:gravity="center">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/guider1_layout_guide"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="140dp">
+
+                <ImageView
+                    android:id="@+id/guider1_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="145dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name1_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location1_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location1_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/language1_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn1_guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="140dp">
+
+                <ImageView
+                    android:id="@+id/guider2_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="145dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name2_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location2_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location2_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/language2_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn2_guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="140dp">
+
+                <ImageView
+                    android:id="@+id/guider3_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="145dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name3_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location3_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location3_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/language3_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn3_guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#4285F4">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="140dp">
+
+                <ImageView
+                    android:id="@+id/guider4_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="145dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/name4_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/location4_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_location4_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/language4_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn4_guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background"
+                    android:text="Call Now"
+                    android:textColor="@color/white">
+
+                </Button>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_forward_24">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
